@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<title>{{ s.title }} – {{ s.date_line }}</title>
+<style>{{ fonts_css|safe }}</style>
+<style>{{ base_css|safe }}</style>
+<style>{{ theme_css|safe }}</style>
+</head>
+<body class="theme-{{ style }} mast-v{{ v.masthead }} hero-p{{ v.hero_pattern }} mascot-{{ v.mascot }}">
+<main class="page">
+
+  <header class="masthead panel">
+    <div class="mast-side left">{{ s.edition }}</div>
+    <div class="mast-center">
+      <h1 class="mast-title">{{ s.title }}</h1>
+      <div class="slogan">★ {{ v.slogan }} ★</div>
+    </div>
+    <div class="mast-side right">{{ s.date_line }}<br><span class="price">Preis: 1 Lächeln</span></div>
+  </header>
+
+  <section class="hero panel">
+    <div class="hero-text">
+      <div class="burst sound">{{ s.sound }}</div>
+      <h2 class="headline{% if s.headline|length > 26 %} xlong{% elif s.headline|length > 17 %} long{% endif %}">{{ s.headline }}</h2>
+      <p class="subline">{{ s.subline }}</p>
+      {% if d.school_start %}
+      <div class="timechips">
+        <span class="chip">Start <b>{{ d.school_start }}</b></span>
+        <span class="chip">Schluss <b>{{ d.school_end }}</b></span>
+        <span class="chip">Hausaufgaben <b>{{ d.homework|length }}</b></span>
+      </div>
+      {% endif %}
+      {% if d.pack_list and not d.no_school_event %}
+      <div class="packlist"><b>🎒 Einpacken:</b> {{ d.pack_list|join(' · ') }}</div>
+      {% endif %}
+      {% if v.countdown %}<div class="countdown">⏳ {{ v.countdown }}</div>{% endif %}
+    </div>
+    <div class="hero-mascot">
+      <div class="bubble">{{ s.mascot_says }}</div>
+      {{ mascot_svg|safe }}
+      <div class="mascot-name">{{ v.mascot_name }}</div>
+    </div>
+  </section>
+
+  <div class="grid">
+    <div class="col-left">
+    <section class="panel today">
+      <h3 class="caption">Dein Tag · {{ weekday }}</h3>
+      {% for ev in d.day_events %}
+      <div class="day-event {{ ev.kind }}{% if ev.no_school %} noschool{% endif %}">{% if ev.kind == 'test' %}✎ {% else %}★ {% endif %}{{ ev.title }}</div>
+      {% endfor %}
+      {% if d.lessons %}
+      <table class="plan">
+        {% for l in d.lessons %}
+        <tr class="{% if l.cancelled %}cancelled{% elif l.change_text %}changed{% endif %}">
+          <td class="time">{{ l.start }}<br><small>{{ l.end }}</small></td>
+          <td class="subj">
+            <b>{{ l.subject }}</b>
+            {% if l.teacher %}<small> · {{ l.teacher }}</small>{% endif %}
+            {% if l.change_text and not l.cancelled %}<div class="note">{{ l.change_text }}</div>{% elif l.substitution %}<div class="note">{{ l.substitution }}</div>{% endif %}
+            {% if l.topic %}<div class="topic">Thema: {{ l.topic|truncate(60) }}</div>{% endif %}
+          </td>
+          <td class="room">{% if l.cancelled %}<span class="stamp">ENTFALL</span>{% elif l.room %}{% if l.room_old %}<s>{{ l.room_old }}</s> {% endif %}{{ l.room }}{% endif %}</td>
+        </tr>
+        {% endfor %}
+      </table>
+      {% else %}
+      <p class="empty">Keine Einträge für diesen Tag.</p>
+      {% endif %}
+    </section>
+      {% if post_left %}
+      {% if d.messages %}
+      <section class="panel post">
+        <h3 class="caption">Post vom Dashboard</h3>
+        {% for m in d.messages[:2] %}
+        <p><b>{{ m.sender }}</b>{% if m.date %} <small>({{ short_date(m.date) }})</small>{% endif %}: {{ m.text|truncate(120) }}</p>
+        {% endfor %}
+      </section>
+      {% endif %}
+      {% endif %}
+    </div>
+
+    <div class="col-right">
+      {% if s.alert_lines %}
+      <section class="panel alert">
+        <h3 class="caption">{{ s.alert_title }}</h3>
+        <ul>{% for a in s.alert_lines %}<li>{{ a }}</li>{% endfor %}</ul>
+      </section>
+      {% endif %}
+
+      <section class="panel homework">
+        <h3 class="caption">{{ s.homework_title }}</h3>
+        {% if d.homework %}
+        <ul class="hw">
+          {% for h in d.homework[:hw_limit] %}
+          <li class="{% if h.due == d.day %}due{% endif %}">
+            <span class="box"></span>
+            <div>
+              <b>{{ h.subject }}</b>
+              <span class="due-label">{% if h.due == d.day %}{{ d.rel|upper }} fällig{% else %}bis {{ short_date(h.due) }}{% endif %}{% if h.minutes %} · ~{{ h.minutes }} min{% endif %}</span>
+              <div class="hw-text">{{ h.text|truncate(140) }}</div>
+            </div>
+          </li>
+          {% endfor %}
+        </ul>
+        {% if d.homework|length > hw_limit %}<p class="more">… und {{ d.homework|length - hw_limit }} weitere im Dashboard</p>{% endif %}
+        {% else %}
+        <p class="empty">Keine Hausaufgaben eingetragen. Juhu!</p>
+        {% endif %}
+      </section>
+
+      {% if not post_left %}
+      {% if d.messages %}
+      <section class="panel post">
+        <h3 class="caption">Post vom Dashboard</h3>
+        {% for m in d.messages[:2] %}
+        <p><b>{{ m.sender }}</b>{% if m.date %} <small>({{ short_date(m.date) }})</small>{% endif %}: {{ m.text|truncate(120) }}</p>
+        {% endfor %}
+      </section>
+      {% endif %}
+      {% endif %}
+    </div>
+  </div>
+
+  <section class="panel week">
+    <h3 class="caption">Die Woche im Blick</h3>
+    <div class="week-grid">
+      {% for day, lessons in week %}
+      <div class="wday {% if day == d.day %}is-today{% endif %}">
+        <div class="wday-name">{{ weekday_short(day) }} <small>{{ day.day }}.{{ day.month }}.</small></div>
+        {% for ev in d.events.get(day, []) if ev.kind == 'test' or ev.no_school %}
+          <span class="mini {{ 'test' if ev.kind == 'test' else 'noschool' }}">{{ ev.title|truncate(22) }}</span>
+        {% endfor %}
+        {% for l in lessons %}
+          <span class="mini {% if l.cancelled %}x{% elif l.change_text %}chg{% endif %}">{{ abbrev(l.subject) }}</span>
+        {% else %}<span class="mini free">frei</span>{% endfor %}
+      </div>
+      {% endfor %}
+    </div>
+  </section>
+
+  <div class="bottom">
+    {% for b in v.boxes %}
+    <section class="panel box box-{{ b.kind }}">
+      <h3 class="caption">{{ b.title }}</h3>
+      {% if b.kind == 'witz' %}
+        <p class="q">{{ b.lines[0] }}</p>
+        <p class="a">{{ b.answer }}</p>
+      {% elif b.kind == 'raetsel' %}
+        <p class="q">{{ b.lines[0]|truncate(200) }}</p>
+        <p class="solution">Lösung: <span>{{ b.answer }}</span></p>
+      {% elif b.kind == 'wort' %}
+        <p class="word">{{ b.lines[0] }} <span class="arrow">→</span> <span class="de">{{ b.answer }}</span></p>
+        <p class="example">„{{ b.extra }}“</p>
+      {% else %}
+        <p>{{ b.lines[0]|truncate(220) }}</p>
+      {% endif %}
+      {% if loop.last %}<p class="outro">{{ s.outro }}</p>{% endif %}
+    </section>
+    {% endfor %}
+  </div>
+
+</main>
+</body>
+</html>

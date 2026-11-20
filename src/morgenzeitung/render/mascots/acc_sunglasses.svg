@@ -1,0 +1,6 @@
+<g stroke="var(--ink)" stroke-width="3">
+  <rect x="40" y="44" width="38" height="22" rx="9" fill="#111"/>
+  <rect x="82" y="44" width="38" height="22" rx="9" fill="#111"/>
+  <path d="M78 52 L82 52 M40 50 L30 46 M120 50 L130 46" fill="none"/>
+  <path d="M48 50 l8 0 M90 50 l8 0" stroke="#fff" stroke-width="2.5" stroke-linecap="round"/>
+</g>

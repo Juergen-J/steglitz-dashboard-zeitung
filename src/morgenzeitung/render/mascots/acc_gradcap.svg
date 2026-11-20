@@ -1,0 +1,6 @@
+<g stroke="var(--ink)" stroke-width="3.5" stroke-linejoin="round">
+  <path d="M54 18 L54 34 Q80 44 106 34 L106 18 Z" fill="#222"/>
+  <path d="M26 14 L80 -2 L134 14 L80 30 Z" fill="#222"/>
+  <path d="M80 14 L128 18 L128 38" fill="none" stroke="var(--accent2)" stroke-width="3"/>
+  <rect x="123" y="36" width="10" height="10" fill="var(--accent2)" stroke-width="2"/>
+</g>

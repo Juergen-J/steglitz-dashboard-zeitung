@@ -1,0 +1,5 @@
+<g stroke="var(--ink)" stroke-width="3.5" stroke-linejoin="round">
+  <path d="M40 26 C48 -8 104 -22 136 4 L122 26 Z" fill="#e63329"/>
+  <circle cx="138" cy="6" r="9" fill="#fff"/>
+  <rect x="32" y="18" width="96" height="16" rx="8" fill="#fff"/>
+</g>

@@ -1,0 +1,26 @@
+/* Manga: Schwarz-Weiß mit Rasterfolie und Speedlines, ein Akzent in Rot. */
+:root {
+  --paper: #fff;
+  --accent: #d0021b;
+  --accent2: #fff;
+  --accent3: #000;
+  --dot: rgba(0,0,0,.16);
+  --shadow: none;
+  --radius: 0;
+  --tilt: 0deg;
+  --panel-border: 3.6px;
+}
+.masthead { background: #000; }
+.mast-title { color: #fff; -webkit-text-stroke: 0; text-shadow: 3px 3px 0 var(--accent); }
+.hero {
+  background:
+    repeating-conic-gradient(from 0deg at 85% 60%, rgba(0,0,0,.14) 0 2deg, transparent 2deg 7deg),
+    #fff;
+}
+.headline { text-shadow: none; }
+.caption { background: #000; color: #fff; box-shadow: none; }
+.burst { background: #000; color: #fff; -webkit-text-stroke: 0; }
+.wday.is-today { background: #000; color: #fff; }
+.wday.is-today .mini { color: #111; }
+.plan tr.changed { background: rgba(0,0,0,.08); }
+.chip b { color: #000; }

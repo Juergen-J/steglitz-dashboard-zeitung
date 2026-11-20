@@ -1,0 +1,23 @@
+/* Pop-Art: knallige Magenta/Cyan-Töne, große Rasterpunkte. */
+:root {
+  --paper: #fff5fb;
+  --accent: #ff2d8a;
+  --accent2: #00e1ff;
+  --accent3: #7b2cff;
+  --dot: rgba(255,45,138,.22);
+  --radius: 10px;
+  --tilt: 2deg;
+}
+.page {
+  background:
+    radial-gradient(var(--dot) 1.6px, transparent 2px) 0 0 / 4mm 4mm,
+    var(--paper);
+}
+.hero {
+  background:
+    radial-gradient(rgba(0,225,255,.35) 2px, transparent 2.4px) 0 0 / 3mm 3mm,
+    var(--panel-bg);
+}
+.mast-title { color: #fff; }
+.headline { text-shadow: 3px 3px 0 var(--accent2); }
+.plan tr.changed { background: rgba(0,225,255,.25); }

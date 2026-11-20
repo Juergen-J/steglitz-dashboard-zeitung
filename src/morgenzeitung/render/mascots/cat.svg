@@ -1,0 +1,28 @@
+<!-- Kater Karl -->
+<g stroke="var(--ink)" stroke-width="4" stroke-linejoin="round" stroke-linecap="round">
+  <path d="M112 150 Q150 150 146 112 Q144 96 156 90" fill="none" stroke-width="10"/>
+  <path d="M112 150 Q150 150 146 112 Q144 96 156 90" fill="none" stroke="#f2a541" stroke-width="5"/>
+  <ellipse cx="80" cy="126" rx="40" ry="38" fill="#f2a541"/>
+  <ellipse cx="80" cy="132" rx="24" ry="26" fill="#fff3dc"/>
+  <path d="M40 44 L44 8 L72 30 Z" fill="#f2a541"/>
+  <path d="M120 44 L116 8 L88 30 Z" fill="#f2a541"/>
+  <path d="M47 34 L49 18 L62 30 Z" fill="#ffb3c1" stroke-width="2.5"/>
+  <path d="M113 34 L111 18 L98 30 Z" fill="#ffb3c1" stroke-width="2.5"/>
+  <ellipse cx="80" cy="60" rx="48" ry="36" fill="#f2a541"/>
+  <path d="M70 26 l2 12 M80 25 v13 M90 26 l-2 12" stroke-width="3"/>
+  <ellipse cx="60" cy="56" rx="12" ry="13" fill="#fff"/>
+  <ellipse cx="100" cy="56" rx="12" ry="13" fill="#fff"/>
+  <ellipse cx="62" cy="57" rx="4" ry="8" fill="#3c9a4b"/>
+  <ellipse cx="98" cy="57" rx="4" ry="8" fill="#3c9a4b"/>
+  <path d="M75 70 L85 70 L80 76 Z" fill="#ff8fa3" stroke-width="2.5"/>
+  <path d="M80 76 Q74 84 68 80 M80 76 Q86 84 92 80" fill="none" stroke-width="3"/>
+  <path d="M30 66 L56 70 M30 76 L56 74 M130 66 L104 70 M130 76 L104 74" stroke-width="2.5"/>
+  <path d="M116 104 Q140 90 136 62" fill="none" stroke-width="12"/>
+  <path d="M116 104 Q140 90 136 62" fill="none" stroke="#f2a541" stroke-width="6"/>
+  <ellipse cx="136" cy="56" rx="10" ry="9" fill="#f2a541"/>
+  <ellipse cx="58" cy="162" rx="14" ry="7" fill="#f2a541"/>
+  <ellipse cx="102" cy="162" rx="14" ry="7" fill="#f2a541"/>
+</g>
+<g stroke="var(--ink)" stroke-width="3" stroke-linecap="round" fill="none">
+  <path d="M150 42 q6 -4 8 -10"/><path d="M154 58 q6 -2 6 -8"/>
+</g>

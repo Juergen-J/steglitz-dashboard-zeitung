@@ -1,0 +1,22 @@
+/* Comic-Noir: Detektivgeschichte, dunkle Töne, ein roter Akzent. */
+:root {
+  --paper: #e9e4d8;
+  --ink: #141414;
+  --accent: #b3001b;
+  --accent2: #f2e6c9;
+  --accent3: #b3001b;
+  --panel-bg: #f7f2e6;
+  --dot: rgba(0,0,0,.14);
+  --title-font: "Bangers", "Impact", sans-serif;
+  --tilt: 0deg;
+}
+.masthead { background: #141414; }
+.mast-title { color: var(--accent2); text-shadow: 3px 3px 0 var(--accent); -webkit-text-stroke: 0; }
+.hero {
+  background:
+    repeating-linear-gradient(135deg, rgba(0,0,0,.07) 0 3px, transparent 3px 9px),
+    var(--panel-bg);
+}
+.headline { text-shadow: 2px 2px 0 rgba(179,0,27,.35); }
+.caption { background: #141414; color: var(--accent2); }
+.wday.is-today { background: #141414; color: var(--accent2); }

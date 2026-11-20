@@ -1,0 +1,40 @@
+<!-- Professor Uhu. Anker: Augen y≈56 (x 60/100), Kopf oben y≈20, Hals y≈92 -->
+<g stroke="var(--ink)" stroke-width="4" stroke-linejoin="round" stroke-linecap="round">
+    <!-- Umhang -->
+    <path d="M30 70 Q10 130 22 166 L138 166 Q150 130 130 70 Z" fill="var(--accent)"/>
+    <!-- Körper -->
+    <ellipse cx="80" cy="104" rx="46" ry="54" fill="#b07a4a"/>
+    <ellipse cx="80" cy="118" rx="30" ry="34" fill="#f1d9b0"/>
+    <path d="M62 112 q6 6 12 0 M78 124 q6 6 12 0 M62 136 q6 6 12 0 M86 108 q6 6 12 0" fill="none" stroke-width="2.6"/>
+    <!-- Ohrbüschel -->
+    <path d="M42 46 L36 14 L62 38 Z" fill="#8a5a33"/>
+    <path d="M118 46 L124 14 L98 38 Z" fill="#8a5a33"/>
+    <!-- Kopf -->
+    <ellipse cx="80" cy="58" rx="48" ry="38" fill="#b07a4a"/>
+    <!-- Augen + Brille -->
+    <circle cx="60" cy="56" r="17" fill="#fff"/>
+    <circle cx="100" cy="56" r="17" fill="#fff"/>
+    <circle cx="60" cy="56" r="20" fill="none" stroke="var(--accent3)" stroke-width="4.5"/>
+    <circle cx="100" cy="56" r="20" fill="none" stroke="var(--accent3)" stroke-width="4.5"/>
+    <path d="M80 54 L80 54" stroke="var(--accent3)" stroke-width="5"/>
+    <circle cx="63" cy="58" r="7" fill="var(--ink)" stroke="none"/>
+    <circle cx="97" cy="58" r="7" fill="var(--ink)" stroke="none"/>
+    <circle cx="65.5" cy="55.5" r="2.4" fill="#fff" stroke="none"/>
+    <circle cx="99.5" cy="55.5" r="2.4" fill="#fff" stroke="none"/>
+    <!-- Augenbrauen -->
+    <path d="M44 34 Q58 28 70 36" fill="none" stroke-width="4"/>
+    <path d="M116 34 Q102 28 90 36" fill="none" stroke-width="4"/>
+    <!-- Schnabel -->
+    <path d="M72 72 L88 72 L80 88 Z" fill="var(--accent2)"/>
+    <!-- Flügel, einer winkt -->
+    <path d="M36 92 Q14 104 22 132 Q34 124 40 112 Z" fill="#8a5a33"/>
+    <path d="M124 90 Q150 72 146 44 Q132 56 122 72 Z" fill="#8a5a33"/>
+    <!-- Abzeichen -->
+    <circle cx="80" cy="150" r="0" fill="none"/>
+    <!-- Füße -->
+    <path d="M62 156 l-6 10 M66 157 l0 10 M70 156 l6 10 M90 156 l-6 10 M94 157 l0 10 M98 156 l6 10" stroke="var(--accent2)" stroke-width="4"/>
+  </g>
+  <!-- Bewegungslinien beim Winken -->
+  <g stroke="var(--ink)" stroke-width="3" stroke-linecap="round" fill="none">
+    <path d="M150 30 q6 -4 8 -10"/><path d="M154 46 q6 -2 6 -8"/>
+  </g>

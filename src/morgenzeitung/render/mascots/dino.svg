@@ -1,0 +1,27 @@
+<!-- Dino Dora -->
+<g stroke="var(--ink)" stroke-width="4" stroke-linejoin="round" stroke-linecap="round">
+  <path d="M46 136 Q14 150 4 120 Q24 136 42 118 Z" fill="#6cc070"/>
+  <path d="M60 26 L66 8 L76 24 M80 22 L88 4 L96 22 M100 26 L110 10 L114 30" fill="var(--accent2)"/>
+  <ellipse cx="80" cy="124" rx="42" ry="42" fill="#6cc070"/>
+  <ellipse cx="80" cy="132" rx="26" ry="30" fill="#e9f6c8"/>
+  <path d="M64 112 h32 M62 126 h36 M64 140 h32" fill="none" stroke-width="2.5"/>
+  <ellipse cx="80" cy="58" rx="50" ry="38" fill="#6cc070"/>
+  <circle cx="60" cy="52" r="13" fill="#fff"/>
+  <circle cx="100" cy="52" r="13" fill="#fff"/>
+  <circle cx="62" cy="55" r="6" fill="var(--ink)" stroke="none"/>
+  <circle cx="98" cy="55" r="6" fill="var(--ink)" stroke="none"/>
+  <circle cx="64" cy="52" r="2.2" fill="#fff" stroke="none"/>
+  <circle cx="100" cy="52" r="2.2" fill="#fff" stroke="none"/>
+  <path d="M54 74 Q80 94 106 74" fill="#fff"/>
+  <path d="M74 81 l4 6 l4 -6" fill="#fff" stroke-width="2.5"/>
+  <circle cx="44" cy="70" r="5" fill="#ff9fb0" stroke="none"/>
+  <circle cx="116" cy="70" r="5" fill="#ff9fb0" stroke="none"/>
+  <path d="M44 112 Q30 116 32 128" fill="none" stroke-width="9"/>
+  <path d="M116 108 Q140 96 138 70" fill="none" stroke-width="9"/>
+  <circle cx="138" cy="66" r="7" fill="#6cc070"/>
+  <ellipse cx="60" cy="164" rx="15" ry="7" fill="#6cc070"/>
+  <ellipse cx="100" cy="164" rx="15" ry="7" fill="#6cc070"/>
+</g>
+<g stroke="var(--ink)" stroke-width="3" stroke-linecap="round" fill="none">
+  <path d="M152 50 q6 -4 8 -10"/><path d="M156 66 q6 -2 6 -8"/>
+</g>

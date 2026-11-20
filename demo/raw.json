@@ -1,0 +1,788 @@
+{
+ "user_id": "demo",
+ "weeks": {
+  "w1": {
+   "events": [
+    {
+     "lesson": true,
+     "start": "__D0__T08:00",
+     "end": "__D0__T08:45",
+     "label": "<b>Mathematik</b> (Kr)",
+     "fach": "Mathematik",
+     "label_lehrer": "Kr",
+     "raum": [
+      "204"
+     ],
+     "stunde": 1
+    },
+    {
+     "lesson": true,
+     "start": "__D0__T08:50",
+     "end": "__D0__T09:35",
+     "label": "<b>Mathematik</b> (Kr)",
+     "fach": "Mathematik",
+     "label_lehrer": "Kr",
+     "raum": [
+      "204"
+     ],
+     "stunde": 2
+    },
+    {
+     "lesson": true,
+     "start": "__D0__T09:55",
+     "end": "__D0__T10:40",
+     "label": "<b>Deutsch</b> (Wi)",
+     "fach": "Deutsch",
+     "label_lehrer": "Wi",
+     "raum": [
+      "112"
+     ],
+     "stunde": 3
+    },
+    {
+     "lesson": true,
+     "start": "__D0__T10:45",
+     "end": "__D0__T11:30",
+     "label": "<b>Englisch</b> (Ha)",
+     "fach": "Englisch",
+     "label_lehrer": "Ha",
+     "raum": [
+      "115"
+     ],
+     "stunde": 4
+    },
+    {
+     "lesson": true,
+     "start": "__D0__T11:50",
+     "end": "__D0__T12:35",
+     "label": "<b>Biologie</b> (Lo)",
+     "fach": "Biologie",
+     "label_lehrer": "Lo",
+     "raum": [
+      "B2"
+     ],
+     "stunde": 5
+    },
+    {
+     "lesson": true,
+     "start": "__D0__T12:40",
+     "end": "__D0__T13:25",
+     "label": "<b>Sport</b> (Pe)",
+     "fach": "Sport",
+     "label_lehrer": "Pe",
+     "raum": [
+      "Halle"
+     ],
+     "stunde": 6
+    },
+    {
+     "lesson": true,
+     "start": "__D1__T08:00",
+     "end": "__D1__T08:45",
+     "label": "<b>Physik</b> (Ne)",
+     "fach": "Physik",
+     "label_lehrer": "Ne",
+     "raum": [
+      "P1"
+     ],
+     "stunde": 1
+    },
+    {
+     "lesson": true,
+     "start": "__D1__T08:50",
+     "end": "__D1__T09:35",
+     "label": "<b>Physik</b> (Ne)",
+     "fach": "Physik",
+     "label_lehrer": "Ne",
+     "raum": [
+      "P1"
+     ],
+     "stunde": 2
+    },
+    {
+     "lesson": true,
+     "start": "__D1__T09:55",
+     "end": "__D1__T10:40",
+     "label": "<b>Französisch</b> (Du)",
+     "fach": "Französisch",
+     "label_lehrer": "Du",
+     "raum": [
+      "108"
+     ],
+     "stunde": 3
+    },
+    {
+     "lesson": true,
+     "start": "__D1__T10:45",
+     "end": "__D1__T11:30",
+     "label": "<b>Geschichte</b> (Sc)",
+     "fach": "Geschichte",
+     "label_lehrer": "Sc",
+     "raum": [
+      "210"
+     ],
+     "stunde": 4
+    },
+    {
+     "lesson": true,
+     "start": "__D1__T11:50",
+     "end": "__D1__T12:35",
+     "label": "<b>Deutsch</b> (Wi)",
+     "fach": "Deutsch",
+     "label_lehrer": "Wi",
+     "raum": [
+      "112"
+     ],
+     "stunde": 5
+    },
+    {
+     "lesson": true,
+     "start": "__D1__T12:40",
+     "end": "__D1__T13:25",
+     "label": "<b>Musik</b> (Ba)",
+     "fach": "Musik",
+     "label_lehrer": "Ba",
+     "raum": [
+      "M1"
+     ],
+     "stunde": 6,
+     "vertretungs_text": "Vertretung: Frau Kl",
+     "vertretung": true
+    },
+    {
+     "lesson": true,
+     "start": "__D1__T13:45",
+     "end": "__D1__T14:30",
+     "label": "<b>Informatik</b> (Sp)",
+     "fach": "Informatik",
+     "label_lehrer": "Sp",
+     "raum": [
+      "I3"
+     ],
+     "stunde": 7
+    },
+    {
+     "lesson": true,
+     "start": "__D2__T08:00",
+     "end": "__D2__T08:45",
+     "label": "<b>Englisch</b> (Ha)",
+     "fach": "Englisch",
+     "label_lehrer": "Ha",
+     "raum": [
+      "115",
+      "118"
+     ],
+     "stunde": 1,
+     "raum_removed": "115",
+     "vertretungs_text": "Raumänderung: 118"
+    },
+    {
+     "lesson": true,
+     "start": "__D2__T08:50",
+     "end": "__D2__T09:35",
+     "label": "<b>Chemie</b> (Ro)",
+     "fach": "Chemie",
+     "label_lehrer": "Ro",
+     "raum": [
+      "C1"
+     ],
+     "stunde": 2
+    },
+    {
+     "lesson": true,
+     "start": "__D2__T09:55",
+     "end": "__D2__T10:40",
+     "label": "<b>Chemie</b> (Ro)",
+     "fach": "Chemie",
+     "label_lehrer": "Ro",
+     "raum": [
+      "C1"
+     ],
+     "stunde": 3,
+     "entfall": true,
+     "vertretungs_text": "Chemie entfällt"
+    },
+    {
+     "lesson": true,
+     "start": "__D2__T10:45",
+     "end": "__D2__T11:30",
+     "label": "<b>Mathematik</b> (Kr)",
+     "fach": "Mathematik",
+     "label_lehrer": "Kr",
+     "raum": [
+      "204"
+     ],
+     "stunde": 4
+    },
+    {
+     "lesson": true,
+     "start": "__D2__T11:50",
+     "end": "__D2__T12:35",
+     "label": "<b>Kunst</b> (Me)",
+     "fach": "Kunst",
+     "label_lehrer": "Me",
+     "raum": [
+      "K2"
+     ],
+     "stunde": 5
+    },
+    {
+     "lesson": true,
+     "start": "__D3__T08:00",
+     "end": "__D3__T08:45",
+     "label": "<b>Deutsch</b> (Wi)",
+     "fach": "Deutsch",
+     "label_lehrer": "Wi",
+     "raum": [
+      "112"
+     ],
+     "stunde": 1
+    },
+    {
+     "lesson": true,
+     "start": "__D3__T08:50",
+     "end": "__D3__T09:35",
+     "label": "<b>Latein</b> (Fu)",
+     "fach": "Latein",
+     "label_lehrer": "Fu",
+     "raum": [
+      "109"
+     ],
+     "stunde": 2
+    },
+    {
+     "lesson": true,
+     "start": "__D3__T09:55",
+     "end": "__D3__T10:40",
+     "label": "<b>Erdkunde</b> (Ta)",
+     "fach": "Erdkunde",
+     "label_lehrer": "Ta",
+     "raum": [
+      "207"
+     ],
+     "stunde": 3
+    },
+    {
+     "lesson": true,
+     "start": "__D3__T10:45",
+     "end": "__D3__T11:30",
+     "label": "<b>Mathematik</b> (Kr)",
+     "fach": "Mathematik",
+     "label_lehrer": "Kr",
+     "raum": [
+      "204"
+     ],
+     "stunde": 4
+    },
+    {
+     "lesson": true,
+     "start": "__D3__T11:50",
+     "end": "__D3__T12:35",
+     "label": "<b>Ethik</b> (Gr)",
+     "fach": "Ethik",
+     "label_lehrer": "Gr",
+     "raum": [
+      "205"
+     ],
+     "stunde": 5
+    },
+    {
+     "lesson": true,
+     "start": "__D3__T12:40",
+     "end": "__D3__T13:25",
+     "label": "<b>Sport</b> (Pe)",
+     "fach": "Sport",
+     "label_lehrer": "Pe",
+     "raum": [
+      "Halle"
+     ],
+     "stunde": 6
+    },
+    {
+     "lesson": true,
+     "start": "__D3__T13:45",
+     "end": "__D3__T14:30",
+     "label": "<b>Sport</b> (Pe)",
+     "fach": "Sport",
+     "label_lehrer": "Pe",
+     "raum": [
+      "Halle"
+     ],
+     "stunde": 7
+    },
+    {
+     "lesson": true,
+     "start": "__D4__T08:00",
+     "end": "__D4__T08:45",
+     "label": "<b>Biologie</b> (Lo)",
+     "fach": "Biologie",
+     "label_lehrer": "Lo",
+     "raum": [
+      "B2"
+     ],
+     "stunde": 1
+    },
+    {
+     "lesson": true,
+     "start": "__D4__T08:50",
+     "end": "__D4__T09:35",
+     "label": "<b>Englisch</b> (Ha)",
+     "fach": "Englisch",
+     "label_lehrer": "Ha",
+     "raum": [
+      "115"
+     ],
+     "stunde": 2
+    },
+    {
+     "lesson": true,
+     "start": "__D4__T09:55",
+     "end": "__D4__T10:40",
+     "label": "<b>Französisch</b> (Du)",
+     "fach": "Französisch",
+     "label_lehrer": "Du",
+     "raum": [
+      "108"
+     ],
+     "stunde": 3
+    },
+    {
+     "lesson": true,
+     "start": "__D4__T10:45",
+     "end": "__D4__T11:30",
+     "label": "<b>Politik</b> (Sc)",
+     "fach": "Politik",
+     "label_lehrer": "Sc",
+     "raum": [
+      "210"
+     ],
+     "stunde": 4
+    },
+    {
+     "lesson": true,
+     "start": "__D7__T08:00",
+     "end": "__D7__T08:45",
+     "label": "<b>Mathematik</b> (Kr)",
+     "fach": "Mathematik",
+     "label_lehrer": "Kr",
+     "raum": [
+      "204"
+     ],
+     "stunde": 1
+    },
+    {
+     "lesson": true,
+     "start": "__D7__T08:50",
+     "end": "__D7__T09:35",
+     "label": "<b>Mathematik</b> (Kr)",
+     "fach": "Mathematik",
+     "label_lehrer": "Kr",
+     "raum": [
+      "204"
+     ],
+     "stunde": 2
+    },
+    {
+     "lesson": true,
+     "start": "__D7__T09:55",
+     "end": "__D7__T10:40",
+     "label": "<b>Deutsch</b> (Wi)",
+     "fach": "Deutsch",
+     "label_lehrer": "Wi",
+     "raum": [
+      "112"
+     ],
+     "stunde": 3
+    },
+    {
+     "lesson": true,
+     "start": "__D7__T10:45",
+     "end": "__D7__T11:30",
+     "label": "<b>Englisch</b> (Ha)",
+     "fach": "Englisch",
+     "label_lehrer": "Ha",
+     "raum": [
+      "115"
+     ],
+     "stunde": 4
+    },
+    {
+     "lesson": true,
+     "start": "__D7__T11:50",
+     "end": "__D7__T12:35",
+     "label": "<b>Biologie</b> (Lo)",
+     "fach": "Biologie",
+     "label_lehrer": "Lo",
+     "raum": [
+      "B2"
+     ],
+     "stunde": 5
+    },
+    {
+     "lesson": true,
+     "start": "__D7__T12:40",
+     "end": "__D7__T13:25",
+     "label": "<b>Sport</b> (Pe)",
+     "fach": "Sport",
+     "label_lehrer": "Pe",
+     "raum": [
+      "Halle"
+     ],
+     "stunde": 6
+    },
+    {
+     "lesson": true,
+     "start": "__D8__T08:00",
+     "end": "__D8__T08:45",
+     "label": "<b>Physik</b> (Ne)",
+     "fach": "Physik",
+     "label_lehrer": "Ne",
+     "raum": [
+      "P1"
+     ],
+     "stunde": 1
+    },
+    {
+     "lesson": true,
+     "start": "__D8__T08:50",
+     "end": "__D8__T09:35",
+     "label": "<b>Physik</b> (Ne)",
+     "fach": "Physik",
+     "label_lehrer": "Ne",
+     "raum": [
+      "P1"
+     ],
+     "stunde": 2
+    },
+    {
+     "lesson": true,
+     "start": "__D8__T09:55",
+     "end": "__D8__T10:40",
+     "label": "<b>Französisch</b> (Du)",
+     "fach": "Französisch",
+     "label_lehrer": "Du",
+     "raum": [
+      "108"
+     ],
+     "stunde": 3
+    },
+    {
+     "lesson": true,
+     "start": "__D8__T10:45",
+     "end": "__D8__T11:30",
+     "label": "<b>Geschichte</b> (Sc)",
+     "fach": "Geschichte",
+     "label_lehrer": "Sc",
+     "raum": [
+      "210"
+     ],
+     "stunde": 4
+    },
+    {
+     "lesson": true,
+     "start": "__D8__T11:50",
+     "end": "__D8__T12:35",
+     "label": "<b>Deutsch</b> (Wi)",
+     "fach": "Deutsch",
+     "label_lehrer": "Wi",
+     "raum": [
+      "112"
+     ],
+     "stunde": 5
+    },
+    {
+     "lesson": true,
+     "start": "__D8__T12:40",
+     "end": "__D8__T13:25",
+     "label": "<b>Musik</b> (Ba)",
+     "fach": "Musik",
+     "label_lehrer": "Ba",
+     "raum": [
+      "M1"
+     ],
+     "stunde": 6
+    },
+    {
+     "lesson": true,
+     "start": "__D8__T13:45",
+     "end": "__D8__T14:30",
+     "label": "<b>Informatik</b> (Sp)",
+     "fach": "Informatik",
+     "label_lehrer": "Sp",
+     "raum": [
+      "I3"
+     ],
+     "stunde": 7
+    },
+    {
+     "lesson": true,
+     "start": "__D9__T08:00",
+     "end": "__D9__T08:45",
+     "label": "<b>Englisch</b> (Ha)",
+     "fach": "Englisch",
+     "label_lehrer": "Ha",
+     "raum": [
+      "115"
+     ],
+     "stunde": 1
+    },
+    {
+     "lesson": true,
+     "start": "__D9__T08:50",
+     "end": "__D9__T09:35",
+     "label": "<b>Chemie</b> (Ro)",
+     "fach": "Chemie",
+     "label_lehrer": "Ro",
+     "raum": [
+      "C1"
+     ],
+     "stunde": 2
+    },
+    {
+     "lesson": true,
+     "start": "__D9__T09:55",
+     "end": "__D9__T10:40",
+     "label": "<b>Chemie</b> (Ro)",
+     "fach": "Chemie",
+     "label_lehrer": "Ro",
+     "raum": [
+      "C1"
+     ],
+     "stunde": 3
+    },
+    {
+     "lesson": true,
+     "start": "__D9__T10:45",
+     "end": "__D9__T11:30",
+     "label": "<b>Mathematik</b> (Kr)",
+     "fach": "Mathematik",
+     "label_lehrer": "Kr",
+     "raum": [
+      "204"
+     ],
+     "stunde": 4
+    },
+    {
+     "lesson": true,
+     "start": "__D9__T11:50",
+     "end": "__D9__T12:35",
+     "label": "<b>Kunst</b> (Me)",
+     "fach": "Kunst",
+     "label_lehrer": "Me",
+     "raum": [
+      "K2"
+     ],
+     "stunde": 5
+    },
+    {
+     "lesson": true,
+     "start": "__D10__T08:00",
+     "end": "__D10__T08:45",
+     "label": "<b>Deutsch</b> (Wi)",
+     "fach": "Deutsch",
+     "label_lehrer": "Wi",
+     "raum": [
+      "112"
+     ],
+     "stunde": 1
+    },
+    {
+     "lesson": true,
+     "start": "__D10__T08:50",
+     "end": "__D10__T09:35",
+     "label": "<b>Latein</b> (Fu)",
+     "fach": "Latein",
+     "label_lehrer": "Fu",
+     "raum": [
+      "109"
+     ],
+     "stunde": 2
+    },
+    {
+     "lesson": true,
+     "start": "__D10__T09:55",
+     "end": "__D10__T10:40",
+     "label": "<b>Erdkunde</b> (Ta)",
+     "fach": "Erdkunde",
+     "label_lehrer": "Ta",
+     "raum": [
+      "207"
+     ],
+     "stunde": 3
+    },
+    {
+     "lesson": true,
+     "start": "__D10__T10:45",
+     "end": "__D10__T11:30",
+     "label": "<b>Mathematik</b> (Kr)",
+     "fach": "Mathematik",
+     "label_lehrer": "Kr",
+     "raum": [
+      "204"
+     ],
+     "stunde": 4
+    },
+    {
+     "lesson": true,
+     "start": "__D10__T11:50",
+     "end": "__D10__T12:35",
+     "label": "<b>Ethik</b> (Gr)",
+     "fach": "Ethik",
+     "label_lehrer": "Gr",
+     "raum": [
+      "205"
+     ],
+     "stunde": 5
+    },
+    {
+     "lesson": true,
+     "start": "__D10__T12:40",
+     "end": "__D10__T13:25",
+     "label": "<b>Sport</b> (Pe)",
+     "fach": "Sport",
+     "label_lehrer": "Pe",
+     "raum": [
+      "Halle"
+     ],
+     "stunde": 6
+    },
+    {
+     "lesson": true,
+     "start": "__D10__T13:45",
+     "end": "__D10__T14:30",
+     "label": "<b>Sport</b> (Pe)",
+     "fach": "Sport",
+     "label_lehrer": "Pe",
+     "raum": [
+      "Halle"
+     ],
+     "stunde": 7
+    },
+    {
+     "lesson": true,
+     "start": "__D11__T08:00",
+     "end": "__D11__T08:45",
+     "label": "<b>Biologie</b> (Lo)",
+     "fach": "Biologie",
+     "label_lehrer": "Lo",
+     "raum": [
+      "B2"
+     ],
+     "stunde": 1
+    },
+    {
+     "lesson": true,
+     "start": "__D11__T08:50",
+     "end": "__D11__T09:35",
+     "label": "<b>Englisch</b> (Ha)",
+     "fach": "Englisch",
+     "label_lehrer": "Ha",
+     "raum": [
+      "115"
+     ],
+     "stunde": 2
+    },
+    {
+     "lesson": true,
+     "start": "__D11__T09:55",
+     "end": "__D11__T10:40",
+     "label": "<b>Französisch</b> (Du)",
+     "fach": "Französisch",
+     "label_lehrer": "Du",
+     "raum": [
+      "108"
+     ],
+     "stunde": 3
+    },
+    {
+     "lesson": true,
+     "start": "__D11__T10:45",
+     "end": "__D11__T11:30",
+     "label": "<b>Politik</b> (Sc)",
+     "fach": "Politik",
+     "label_lehrer": "Sc",
+     "raum": [
+      "210"
+     ],
+     "stunde": 4
+    },
+    {
+     "lesson": false,
+     "start": "__D3__T13:45",
+     "end": "__D3__T15:00",
+     "label": "Theater-AG Probe",
+     "title": "Theater-AG Probe"
+    },
+    {
+     "lesson": false,
+     "start": "__D4__",
+     "end": "__D5__",
+     "title": "LEK (Bio)",
+     "event_type": "public_test_event"
+    },
+    {
+     "lesson": false,
+     "start": "__D3__",
+     "end": "__D4__",
+     "title": "16.30 Uhr Fachkonferenz Musik",
+     "event_type": "website_event"
+    }
+   ]
+  }
+ },
+ "homework": [
+  {
+   "datum": "__D2__",
+   "fach": "Englisch",
+   "text": [
+    "Workbook S. 34, Nr. 2–4",
+    "Vokabeln Unit 3 lernen"
+   ],
+   "est_time": 30
+  },
+  {
+   "datum": "__D2__",
+   "fach": "Mathematik",
+   "text": [
+    "Buch S. 87 Nr. 5a–d (Lineare Funktionen)"
+   ],
+   "est_time": 25
+  },
+  {
+   "datum": "__D3__",
+   "fach": "Deutsch",
+   "text": [
+    "Kapitel 4 von „Tschick“ lesen und drei Fragen notieren"
+   ],
+   "est_time": 40
+  },
+  {
+   "datum": "__D4__",
+   "fach": "Biologie",
+   "text": [
+    "Plakat zur Fotosynthese fertigstellen (Gruppenarbeit)"
+   ],
+   "est_time": 45
+  },
+  {
+   "datum": "__D7__",
+   "fach": "Französisch",
+   "text": [
+    "Lektion 5 Text lesen, unbekannte Wörter heraussuchen"
+   ],
+   "est_time": 20
+  }
+ ],
+ "messages": [
+  {
+   "date": "__D1__",
+   "from": "Frau Wiese",
+   "comment": "Bitte denkt morgen an die unterschriebenen Zettel für den Theaterbesuch!"
+  },
+  {
+   "date": "__D0__",
+   "from": "Herr Krause",
+   "comment": "Die Mathearbeit wird am Donnerstag zurückgegeben."
+  }
+ ]
+}
